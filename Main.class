@@ -1,0 +1,12 @@
+// Source code is decompiled from a .class file using FernFlower decompiler (from Intellij IDEA).
+public class Main {
+   public Main() {
+   }
+
+   public static void main(String[] var0) {
+      GymMembership var1 = new GymMembership("Rafey", "Annual", 3);
+      PremiumMembership var2 = new PremiumMembership("Ali", " annual", 3, true, false);
+      var1.DisplayMembershipDetails();
+      var2.DisplayMembershipDetails();
+   }
+}
